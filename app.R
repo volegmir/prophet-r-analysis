@@ -226,7 +226,7 @@ server <- function(input, output) {
       tryCatch({
         getSymbols(
           input$symbols,
-          src = "yahoo",
+          src = 'yahoo',
           from = input$start,
           to = input$end
         )
